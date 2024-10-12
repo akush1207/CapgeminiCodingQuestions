@@ -17,10 +17,10 @@ public class Search2dMatrix {
 		}
 		System.out.print("Enter the elements to be searched:");
 		int ele=sc.nextInt();
-		if(search(matrix,row,col,i)) {
-			System.out.println(i+" is present in the matrix.");
+		if(search(matrix,row,col,ele)) {
+			System.out.println(ele+" is present in the matrix.");
 		}else {
-			System.out.println(i+" is not present in the matrix.");
+			System.out.println(ele+" is not present in the matrix.");
 		}
 	}
 	public static boolean search(int[][] matrix,int row,int col,int ele) {
