@@ -1,4 +1,5 @@
 package capgemini;
+import java.util.Arrays;
 import java.util.Scanner;
 public class ReduceStringSize {
 
